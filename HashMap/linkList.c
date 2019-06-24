@@ -7,7 +7,7 @@ struct Node * firstAddList(int key, struct Node newNode){
 	firstNode->birtyday = newNode.birtyday;
 	firstNode->key = key;
 	firstNode->nextNode = NULL;
-	printf("new nodelist create %d\n", &key);
+	printf("new nodelist create %d\n", key);
 	return firstNode;
 }
 
@@ -25,7 +25,7 @@ int addList(int key, struct Node * orginalNode, struct Node newNode){
 		flagNode = flagNode->nextNode;
 	}
 
-	printf("new node add %d \n", &key);
+	printf("new node add %d \n", key);
 	flagNode->nextNode = addNode;
 	return 0;	
 }
