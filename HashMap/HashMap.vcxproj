@@ -78,6 +78,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="hashmap.c" />
     <ClCompile Include="linkList.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>
